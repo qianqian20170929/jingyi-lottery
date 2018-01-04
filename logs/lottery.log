@@ -1,0 +1,269 @@
+11:46:12.313 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Starting JingyiLotteryApplication on iamabadcoder with PID 3307 (/Users/iamabadcoder/IdeaProjects/jingyi-lottery/target/classes started by iamabadcoder in /Users/iamabadcoder/IdeaProjects/jingyi-lottery)
+11:46:12.315 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - No active profile set, falling back to default profiles: default
+11:46:12.745 INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a8ad743: startup date [Thu Jan 04 11:46:12 CST 2018]; root of context hierarchy
+11:46:12.771 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+11:46:15.944 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 6688 (http)
+11:46:15.966 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:46:15.968 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+11:46:16.091 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:46:16.091 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3347 ms
+11:46:16.270 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:46:16.275 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:46:16.275 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:46:16.275 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:46:16.275 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:46:16.276 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+11:46:16.729 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:46:16.758 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+11:46:16.977 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+11:46:16.980 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:46:16.983 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+11:46:17.110 INFO  [restartedMain] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:46:17.801 INFO  [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:46:18.685 INFO  [restartedMain] org.hibernate.tool.hbm2ddl.SchemaValidator - HHH000229: Running schema validator
+11:46:18.822 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:46:19.581 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientInboundChannelExecutor'
+11:46:19.587 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientOutboundChannelExecutor'
+11:46:19.613 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'messageBrokerTaskScheduler'
+11:46:19.702 INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping - Mapped URL path [/endpoint_main/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+11:46:19.722 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'brokerChannelExecutor'
+11:46:19.907 INFO  [restartedMain] org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler - Mapped "{[/hello],messageType=[MESSAGE]}" onto public com.hackx.entity.ResponseMessageEntity com.hackx.controller.MessageController.greetings(com.hackx.entity.RequestMessageEntity) throws java.lang.Exception
+11:46:20.104 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a8ad743: startup date [Thu Jan 04 11:46:12 CST 2018]; root of context hierarchy
+11:46:20.215 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:46:20.217 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:46:20.352 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:46:20.353 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:46:20.406 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:46:20.853 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+11:46:21.231 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:46:21.297 INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+11:46:21.316 INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+11:46:21.316 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+11:46:21.317 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:46:21.318 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+11:46:21.335 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6688"]
+11:46:21.346 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6688"]
+11:46:21.371 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:46:21.396 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 6688 (http)
+11:46:21.403 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Started JingyiLotteryApplication in 10.148 seconds (JVM running for 12.08)
+11:46:23.553 INFO  [MessageBroker-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+11:46:28.903 INFO  [http-nio-6688-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:46:28.903 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11:46:28.924 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+11:46:35.679 INFO  [clientInboundChannel-7] com.hackx.controller.MessageController - request message:null
+11:47:19.724 INFO  [MessageBroker-3] org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannelpool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 17]
+11:48:48.080 INFO  [Thread-10] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7a8ad743: startup date [Thu Jan 04 11:46:12 CST 2018]; root of context hierarchy
+11:48:48.082 INFO  [Thread-10] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+11:48:48.086 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+11:48:48.086 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:48:48.086 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+11:48:48.087 INFO  [Thread-10] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:48:48.088 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+11:48:48.088 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+11:48:48.089 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+11:48:48.089 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+11:48:48.090 INFO  [Thread-10] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:48:55.138 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Starting JingyiLotteryApplication on iamabadcoder with PID 3369 (/Users/iamabadcoder/IdeaProjects/jingyi-lottery/target/classes started by iamabadcoder in /Users/iamabadcoder/IdeaProjects/jingyi-lottery)
+11:48:55.139 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - No active profile set, falling back to default profiles: default
+11:48:55.513 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+11:48:55.683 INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29ef0a8c: startup date [Thu Jan 04 11:48:55 CST 2018]; root of context hierarchy
+11:48:58.404 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 6688 (http)
+11:48:58.417 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:48:58.418 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+11:48:58.524 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:48:58.525 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2843 ms
+11:48:58.702 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:48:58.707 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:48:58.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:48:58.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:48:58.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:48:58.708 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+11:48:59.077 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:48:59.095 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+11:48:59.190 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+11:48:59.193 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:48:59.194 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+11:48:59.244 INFO  [restartedMain] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:48:59.738 INFO  [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:49:00.229 INFO  [restartedMain] org.hibernate.tool.hbm2ddl.SchemaValidator - HHH000229: Running schema validator
+11:49:00.286 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:49:00.752 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientInboundChannelExecutor'
+11:49:00.761 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientOutboundChannelExecutor'
+11:49:00.778 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'messageBrokerTaskScheduler'
+11:49:00.821 INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping - Mapped URL path [/endpoint_main/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+11:49:00.836 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'brokerChannelExecutor'
+11:49:00.978 INFO  [restartedMain] org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler - Mapped "{[/hello],messageType=[MESSAGE]}" onto public com.hackx.entity.ResponseMessageEntity com.hackx.controller.MessageController.greetings(com.hackx.entity.RequestMessageEntity) throws java.lang.Exception
+11:49:01.183 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29ef0a8c: startup date [Thu Jan 04 11:48:55 CST 2018]; root of context hierarchy
+11:49:01.265 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:49:01.266 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:49:01.365 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:01.365 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:01.430 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:01.795 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+11:49:02.136 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:49:02.217 INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+11:49:02.228 INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+11:49:02.229 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+11:49:02.229 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:49:02.231 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+11:49:02.246 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6688"]
+11:49:02.257 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6688"]
+11:49:02.283 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:49:02.301 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 6688 (http)
+11:49:02.308 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Started JingyiLotteryApplication in 7.79 seconds (JVM running for 8.718)
+11:49:03.758 INFO  [MessageBroker-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+11:49:06.022 INFO  [http-nio-6688-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:49:06.022 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11:49:06.047 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+11:49:21.394 INFO  [clientInboundChannel-7] com.hackx.controller.MessageController - request message:caolei
+11:50:00.840 INFO  [MessageBroker-1] org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannelpool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 17]
+11:51:04.617 INFO  [Thread-10] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29ef0a8c: startup date [Thu Jan 04 11:48:55 CST 2018]; root of context hierarchy
+11:51:04.619 INFO  [Thread-10] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+11:51:04.624 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+11:51:04.624 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:51:04.624 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+11:51:04.625 INFO  [Thread-10] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:51:04.626 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+11:51:04.626 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+11:51:04.627 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+11:51:04.628 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+11:51:04.629 INFO  [Thread-10] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:51:09.555 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Starting JingyiLotteryApplication on iamabadcoder with PID 3418 (/Users/iamabadcoder/IdeaProjects/jingyi-lottery/target/classes started by iamabadcoder in /Users/iamabadcoder/IdeaProjects/jingyi-lottery)
+11:51:09.556 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - No active profile set, falling back to default profiles: default
+11:51:09.893 INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323e2224: startup date [Thu Jan 04 11:51:09 CST 2018]; root of context hierarchy
+11:51:09.991 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+11:51:12.126 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 6688 (http)
+11:51:12.138 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:51:12.140 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+11:51:12.213 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:51:12.213 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2320 ms
+11:51:12.351 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:51:12.356 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:51:12.356 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:51:12.356 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:51:12.357 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:51:12.357 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+11:51:12.712 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:51:12.725 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+11:51:12.780 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+11:51:12.781 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:51:12.782 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+11:51:12.825 INFO  [restartedMain] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:51:13.212 INFO  [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:51:13.615 INFO  [restartedMain] org.hibernate.tool.hbm2ddl.SchemaValidator - HHH000229: Running schema validator
+11:51:13.662 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:51:14.051 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientInboundChannelExecutor'
+11:51:14.058 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientOutboundChannelExecutor'
+11:51:14.071 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'messageBrokerTaskScheduler'
+11:51:14.104 INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping - Mapped URL path [/endpoint_main/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+11:51:14.117 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'brokerChannelExecutor'
+11:51:14.243 INFO  [restartedMain] org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler - Mapped "{[/hello],messageType=[MESSAGE]}" onto public com.hackx.entity.ResponseMessageEntity com.hackx.controller.MessageController.greetings(com.hackx.entity.RequestMessageEntity) throws java.lang.Exception
+11:51:14.414 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323e2224: startup date [Thu Jan 04 11:51:09 CST 2018]; root of context hierarchy
+11:51:14.470 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:51:14.471 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:51:14.562 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:51:14.562 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:51:14.609 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:51:14.914 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+11:51:15.182 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:51:15.242 INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+11:51:15.250 INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+11:51:15.250 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+11:51:15.250 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:51:15.252 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+11:51:15.264 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6688"]
+11:51:15.273 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6688"]
+11:51:15.300 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:51:15.315 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 6688 (http)
+11:51:15.322 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Started JingyiLotteryApplication in 6.237 seconds (JVM running for 6.919)
+11:51:16.869 INFO  [MessageBroker-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+11:51:19.063 INFO  [http-nio-6688-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:51:19.063 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11:51:19.081 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+11:51:25.741 INFO  [clientInboundChannel-7] com.hackx.controller.MessageController - request message:caolei
+11:52:14.122 INFO  [MessageBroker-3] org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 1, queued tasks = 0, completed tasks = 20], outboundChannelpool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 17]
+11:52:14.903 INFO  [clientInboundChannel-2] com.hackx.controller.MessageController - request message:caolei
+11:52:30.486 INFO  [Thread-10] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323e2224: startup date [Thu Jan 04 11:51:09 CST 2018]; root of context hierarchy
+11:52:30.490 INFO  [Thread-10] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+11:52:30.495 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+11:52:30.495 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:52:30.495 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+11:52:30.496 INFO  [Thread-10] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:52:30.498 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+11:52:30.498 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+11:52:30.499 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+11:52:30.500 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+11:52:30.501 INFO  [Thread-10] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:52:41.594 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Starting JingyiLotteryApplication on iamabadcoder with PID 3453 (/Users/iamabadcoder/IdeaProjects/jingyi-lottery/target/classes started by iamabadcoder in /Users/iamabadcoder/IdeaProjects/jingyi-lottery)
+11:52:41.594 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - No active profile set, falling back to default profiles: default
+11:52:42.030 INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e16d2d4: startup date [Thu Jan 04 11:52:42 CST 2018]; root of context hierarchy
+11:52:42.091 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+11:52:44.269 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 6688 (http)
+11:52:44.284 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:52:44.285 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+11:52:44.366 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:52:44.366 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2336 ms
+11:52:44.535 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+11:52:44.539 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:52:44.540 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:52:44.540 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:52:44.540 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:52:44.540 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+11:52:44.963 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:52:44.976 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+11:52:45.056 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+11:52:45.058 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:52:45.059 INFO  [restartedMain] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+11:52:45.100 INFO  [restartedMain] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:52:45.488 INFO  [restartedMain] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:52:45.966 INFO  [restartedMain] org.hibernate.tool.hbm2ddl.SchemaValidator - HHH000229: Running schema validator
+11:52:46.020 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:52:46.405 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientInboundChannelExecutor'
+11:52:46.419 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'clientOutboundChannelExecutor'
+11:52:46.448 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService  'messageBrokerTaskScheduler'
+11:52:46.486 INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping - Mapped URL path [/endpoint_main/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+11:52:46.499 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'brokerChannelExecutor'
+11:52:46.619 INFO  [restartedMain] org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler - Mapped "{[/hello],messageType=[MESSAGE]}" onto public com.hackx.entity.ResponseMessageEntity com.hackx.controller.MessageController.greetings(com.hackx.entity.RequestMessageEntity) throws java.lang.Exception
+11:52:46.794 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e16d2d4: startup date [Thu Jan 04 11:52:42 CST 2018]; root of context hierarchy
+11:52:46.862 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:52:46.863 INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:52:46.962 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:52:46.963 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:52:47.004 INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:52:47.300 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+11:52:47.592 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:52:47.664 INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+11:52:47.675 INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+11:52:47.676 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Starting...
+11:52:47.677 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:52:47.678 INFO  [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Started.
+11:52:47.703 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6688"]
+11:52:47.715 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6688"]
+11:52:47.738 INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+11:52:47.753 INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 6688 (http)
+11:52:47.759 INFO  [restartedMain] com.hackx.JingyiLotteryApplication - Started JingyiLotteryApplication in 6.617 seconds (JVM running for 7.448)
+11:52:48.327 INFO  [http-nio-6688-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:52:48.327 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11:52:48.344 INFO  [http-nio-6688-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+11:52:49.286 INFO  [MessageBroker-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+11:53:30.433 INFO  [clientInboundChannel-7] com.hackx.controller.MessageController - request message:caolei
+11:53:46.502 INFO  [MessageBroker-2] org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannelpool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 10]
+11:55:05.980 INFO  [Thread-10] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e16d2d4: startup date [Thu Jan 04 11:52:42 CST 2018]; root of context hierarchy
+11:55:05.986 INFO  [Thread-10] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+11:55:05.992 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopping...
+11:55:05.992 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+11:55:05.992 INFO  [Thread-10] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler - Stopped.
+11:55:05.993 INFO  [Thread-10] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+11:55:05.993 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+11:55:05.994 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+11:55:05.995 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+11:55:05.995 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+11:55:05.996 INFO  [Thread-10] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
