@@ -15,6 +15,9 @@ public class ResponseMessageEntity implements Serializable {
 
     private String responseMessage;
 
+    public ResponseMessageEntity() {
+    }
+
     public ResponseMessageEntity(String responseMessage) {
         this.responseMessage = responseMessage;
     }

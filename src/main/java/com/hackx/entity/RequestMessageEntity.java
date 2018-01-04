@@ -15,4 +15,10 @@ public class RequestMessageEntity implements Serializable {
 
     private String requestMessage;
 
+    public RequestMessageEntity() {
+    }
+
+    public RequestMessageEntity(String requestMessage) {
+        this.requestMessage = requestMessage;
+    }
 }

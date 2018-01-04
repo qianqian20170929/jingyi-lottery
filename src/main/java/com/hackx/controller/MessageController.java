@@ -17,7 +17,7 @@ public class MessageController {
 
     private static final Logger logger = LoggerFactory.getLogger(MessageController.class);
 
-    @MessageMapping("/welcome")
+    @MessageMapping("/hello")
     @SendTo("/topic/greetings")
     public ResponseMessageEntity greetings(RequestMessageEntity requestMessage) throws Exception {
         Thread.sleep(1000); // simulated delay
